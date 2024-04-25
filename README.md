@@ -218,10 +218,173 @@ conoth penggunaan css internal:
 ```
 ![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/7d340b45-89cf-4c2a-9d26-9a84e16f91a1)
 
+contoh penggunaan css eksternal:
+
+simpan file dengan format ```.html``` 
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>hai ini heading</h1>
+<p>ini paragraf.</p>
+
+</body>
+</html>
+
+```
+
+simpan file dengan format ```.css```
+```
+body{
+    background-color: bisque;
+}
+
+h1{
+    color: blueviolet;
+}
+p{
+    color: rgb(0, 59, 111);
+}
+```
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/50ef91e8-a51e-4662-bbc1-4fc5d64d60e2)
 
 
 
+### Colors, Fonts dan Sizes
+
+1. ```color``` mendefinisikan warna teks yang akan digunakan.
+2. ```font-family```mendefinisikan font yang akan digunakan.
+3. ```font-size```menentukan ukuran teks yang akan digunakan.
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: lightgrey;
+  font-family: verdana;
+  font-size: 300%;
+ 
+
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>hai ini heading</h1>
+<p>ini juga paragraf.</p>
+
+</body>
+</html>
+
+```
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/aa03055b-aa3f-438e-8b74-e7c7984b1f67)
+
+### Border
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  border: 2px solid powderblue;
+}
+.form{
+	border: 3px solid red;
+}
+</style>
+</head>
+<body>
+<form class="form">
+<h1>Judul</h1>
+
+
+<p>Halo aku revano.</p>
+<p>Halo aku revano.</p>
+<p>Halo aku revano.</p>
+
+</form>
+
+</body>
+</html>
+
+```
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/e6d35a18-6b14-4326-b0de-71477d21fd31)
+
+style ```p``` untuk mengedit semua tag yang berelemenkan ```<p>```. style```.form``` digunakan untuk mengedit pada bagian ```<form>``` dan semua jenis elemen yg didalamnya
+
+### Margin, padding dan background color
+
+1. Margin fungsinya mengatur jarak antara satu elemen dengan elemen lainnya pada HTML
+2. Padding merupakan sebutan untuk spasi atau ruang di dalam tag HTML
+3. background color digunakan untuk memberikan warna pada background html
+```
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+    .margin{
+        margin: 20px;
+    }
+    
+</style>
+<body>
+    <div class="margin">
+        <h3 style="background-color: greenyellow; padding: 20px;">Padding 4 Sisi Sekaligus</h3>
+    <h3 style="background-color: rgb(125, 4, 0); padding: 50px 100px;">Padding 2 Sisi</h3>
+    </div>
+    
+    <h3 style="background-color: rgb(7, 163, 187); padding: 10px 100px 50px;">Padding 3 Sisi</h3>
+    <h3 style="background-color: rgb(97, 156, 8); padding: 5px 50px 10px 60px;">Padding 4 Sisi berbeda</h3>
+
+    <div>
+        
+    </div>
+    
+</body>
+</html>
+
+```
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/4a8df2fe-793a-4cdc-a6b4-1afa2ac72b2d)
 
 ## JavaScript
 
 JavaScript adalah bahasa pemrograman yang digunakan untuk pengembangan website agar lebih dinamis dan interaktif. Website dinamis yang dimaksud berarti konten di dalamnya dapat bergerak atau mengubah apapun yang tampak di layar tanpa harus dimuat ulang secara manual. Misalnya seperti konten gambar animasi, maps, slideshow, polling, dan sebagainya.
+
+### Tag HTML ```<script>```
+
+digunakan untuk mendefinisikan skrip sisi klien (JavaScript).Elemen tersebut ```<script>```berisi pernyataan skrip, atau menunjuk ke file skrip eksternal melalui srcatribut.Kegunaan umum JavaScript adalah manipulasi gambar, validasi formulir, dan perubahan konten dinamis.Untuk memilih elemen HTML, JavaScript paling sering menggunakan metode ```document.getElementById()```.
+
+Contoh JavaScript ini menulis "Halo JavaScript!" menjadi elemen HTML dengan ```id="demo"```:
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+</body>
+</html>
+
+```
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/58a52993-21ea-4c1d-83a0-d03602dfef44)
+
