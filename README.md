@@ -54,7 +54,8 @@ contoh lainnya:
 
 hasil outputnya:
 
-![image](https://github.com/RevanoAugustofa/Pemrograman-Web-1/assets/167878957/aa73f637-9f25-4898-812c-011e2bcaa5dc)
+![Cuplikan layar 2024-04-25 160053](https://github.com/RevanoAugustofa/Web1/assets/167878957/29b511af-82aa-47c5-850e-37a45785ee16)
+
 
 ### Browser web
 
@@ -62,13 +63,15 @@ Tujuan browser web (Chrome, Edge, Firefox, Safari) adalah untuk membaca dokumen 
 
 Browser tidak menampilkan tag HTML, namun menggunakannya untuk menentukan cara menampilkan dokumen:
 
-![image](https://github.com/RevanoAugustofa/Pemrograman-Web-1/assets/167878957/50d766e4-c44f-4e48-9c7d-7c540b26ad00)
+![Cuplikan layar 2024-04-25 160543](https://github.com/RevanoAugustofa/Web1/assets/167878957/dbfdcd5a-a7f9-455d-9197-59d11040b3e9)
+
 
 ### Struktur HTML
 
 berikut adalah struktur dari HTML :
 
-![image](https://github.com/RevanoAugustofa/Pemrograman-Web-1/assets/167878957/5815c769-e52c-487a-9f00-0701f4fbe7d9)
+![Cuplikan layar 2024-04-25 160756](https://github.com/RevanoAugustofa/Web1/assets/167878957/5819e786-2d91-4308-a981-060032c65719)
+
 
 ### Heading
 
