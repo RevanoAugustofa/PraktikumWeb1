@@ -161,14 +161,62 @@ hasilnya akan seperti ini:
 
 ![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/34413b5f-c36a-4046-8351-308b634eafb5)
 
-
-
-
-
-
-
-
-
-
 ## CSS
+
+CSS (Cascading Style Sheet) digunakan bersama dengan bahasa markup, seperti HTML dan XML, untuk membangun sebuah website yang menarik dan memiliki fungsi yang berjalan baik.
+Dengan CSS, Anda bisa mengatur tampilan elemen-elemen di halaman web, seperti mengubah warna teks, mengatur posisi, dan mengatur layout.
+CSS membantu memisahkan antara struktur konten (HTML) dan tampilan (CSS) pada halaman web.
+
+CSS dapat ditambahkan ke dokumen HTML dengan 3 cara:
+
+1. Inline - dengan menggunakan ```style```atribut di dalam elemen HTML
+2. Internal - dengan menggunakan ```<style>```elemen di <head>bagian tersebut
+3. Eksternal - dengan menggunakan ```<link>``` elemen untuk menautkan ke file CSS eksternal
+
+   contoh penggunaan css inline:
+ ```
+   <!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;">Heading Berwarna Biru dengan css inline</h1>
+
+<p style="color:red;">paragraf berwarna merah.</p>
+
+</body>
+</html>
+
+ ```
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/1d6f9103-d6a2-4daf-b58d-d9cdd8be13a9)
+
+conoth penggunaan css internal:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+	h1 {color: blue;}
+	p  {color: red;}
+</style>
+
+</head>
+<body>
+
+<h1> heading berwarna biru menggunakan css internal</h1>
+<p> paragraf berwarna merah.</p>
+
+</body>
+</html>
+
+```
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/7d340b45-89cf-4c2a-9d26-9a84e16f91a1)
+
+
+
+
+
 ## JavaScript
+
+JavaScript adalah bahasa pemrograman yang digunakan untuk pengembangan website agar lebih dinamis dan interaktif. Website dinamis yang dimaksud berarti konten di dalamnya dapat bergerak atau mengubah apapun yang tampak di layar tanpa harus dimuat ulang secara manual. Misalnya seperti konten gambar animasi, maps, slideshow, polling, dan sebagainya.
