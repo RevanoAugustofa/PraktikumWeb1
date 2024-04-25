@@ -19,6 +19,7 @@ HTML, singkatan dari Hypertext Markup Language, merupakan bahasa pemrograman fun
 ```
 
 dan kemudian hasilnya akan sebagai berikut :
+
 ![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/2cba2cd4-d162-4225-836d-51aec35e7e4f)
 
 
