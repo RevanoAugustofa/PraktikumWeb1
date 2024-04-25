@@ -98,7 +98,7 @@ hasilnya akan seperti ini:
 
 ### Paragraf
 
-Paragraf didefinisikan dengan tag```<p> ```
+Paragraf didefinisikan dengan tag```<p>  </p> ```
 
 ```
 <!DOCTYPE html>
