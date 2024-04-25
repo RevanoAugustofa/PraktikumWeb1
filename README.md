@@ -72,7 +72,8 @@ berikut adalah struktur dari HTML :
 
 pada html terdapat heading atau bisa disebut dengan judul ditentukan dengan tag ``` <h1> </h1>``` sampai ```<h6> </h6>``` dimana semakin kecil angka maka akan semakin besar tulisan yang akan ditampilkan. Contohnya 
 
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
 <title>Page Title</title>
@@ -93,7 +94,80 @@ pada html terdapat heading atau bisa disebut dengan judul ditentukan dengan tag 
 
 hasilnya akan seperti ini:
 
-![image](https://github.com/RevanoAugustofa/Pemrograman-Web-1/assets/167878957/1d2a154a-f6b8-4a19-bdda-6c7ef756156e)
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/9afb72a4-88e3-4c18-b265-f38ed9d0012c)
+
+### Paragraf
+
+Paragraf didefinisikan dengan tag```<p> ```
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Ini paragraf.</p>
+<p>ini paragraf lainnya.</p>
+
+</body>
+</html>
+```
+
+hasilnya akan seperti ini:
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/0dfd7332-f1c5-4b04-9302-fc93f8298fa2)
+
+### Link/ Tautan
+
+Tautan didefinikan dengan tag: ```<a>```
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Links</h2>
+<p>HTML link didefinisikan dengan tag a </p>
+
+<a href="https://www.w3schools.com">ini sebuah link</a>
+
+</body>
+</html>
+
+```
+
+hasilnya akan seperti ini:
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/e48ada9a-9acd-412a-87a5-9bb679d0c5d0)
+
+### Gambar
+
+Gambar HTML ditentukan dengan tag```<img>```. File sumber ```(src)```, teks alternatif ```(alt)```, width/ lebar, dan height/tinggi disediakan sebagai atribut.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Images</h2>
+<p>HTML gambar didefinisikan dengan tag img </p>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYq9WB6Y_Ec5kLryZhfKNF84geLC9zbaUMzA&s" alt="google.com" width="200" height="142">
+
+</body>
+</html>
+```
+
+hasilnya akan seperti ini:
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/34413b5f-c36a-4046-8351-308b634eafb5)
+
+
+
+
+
+
+
+
 
 
 ## CSS
