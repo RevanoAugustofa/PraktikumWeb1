@@ -19,7 +19,8 @@ HTML, singkatan dari Hypertext Markup Language, merupakan bahasa pemrograman fun
 ```
 
 dan kemudian hasilnya akan sebagai berikut :
-![image](https://github.com/RevanoAugustofa/Pemrograman-Web-1/assets/167878957/6b5aa2c5-7461-4b68-a414-a0966cc742d6)
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/2cba2cd4-d162-4225-836d-51aec35e7e4f)
+
 
 1. Deklarasi tersebut ```<!DOCTYPE html>```mendefinisikan bahwa dokumen ini adalah dokumen HTML5
 
