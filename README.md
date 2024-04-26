@@ -484,6 +484,9 @@ ketika menambahkan style css maka hasilnya akan seperti berikut
 ```border: 5px solid yellowgreen;``` pada style ```div``` digunakan untuk membuat border dengan ketebalan ```5px``` dengan warna ```yellowgreen```
 
 
+# percobaan
+
+![image](https://github.com/RevanoAugustofa/PraktikumWeb1/assets/167878957/49d821a0-8e8c-44e2-a193-c37cf9d9556d)
 
 
 
