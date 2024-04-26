@@ -388,3 +388,102 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";
 
 ![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/58a52993-21ea-4c1d-83a0-d03602dfef44)
 
+
+
+
+# <i>challenge CSS 4</i> 
+
+ketentuan:
+
+1. Warna border adalah yellowgreen
+2. Gunakan tranformasi teks uppercase pada heading
+3. Paragraf utama menggunaka indentasi dan rata kanan kiri
+4. Gunakan letter-spacing pada paragraf utama
+5. Warna teks hyperlink adalah #008CBA
+6. Pada saat link di klik maka akan membuka halaman https://elearning.pnc.ac.id/ pada Tab baru
+
+### HTML
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/1248e376-ba3e-472d-b9ef-1567f4f37f03)
+
+hasilnya akan seperti ini jika belum memakai css:
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/3e70234e-296b-45d3-a31e-5649a45226c1)
+
+### CSS
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/71182ab5-3e9e-42f8-aa93-6473d88c2984)
+
+ketika menambahkan style css maka hasilnya akan seperti berikut
+
+![image](https://github.com/RevanoAugustofa/Web1/assets/167878957/58e755bb-fe2a-401b-a264-9712221b601f)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3</title>
+</head>
+<style>
+    div {
+        border: 5px solid yellowgreen;
+        margin: auto;
+        width: 35%;
+    }
+
+    h2 {
+        color: darkred;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .a {
+        letter-spacing: 2px;
+        text-indent: 15%;
+        text-align: justify;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #008CBA;
+    }
+</style>
+<body>
+    <div>
+        <h2>praktikum pemrograman web</h2>
+    <p class="a">
+        Praktikum Keterampilan kepada mahasiswa dalam pembuatas situs web yang dinamis dan dapat berinteraksi dengan user Materi meliputi Teknologi Web,Pemrograman situs 
+        HTML, CSS, PHP, MySQL dan Visual Studio Code. <a target="_blank" href="https://elearning.pnc.ac.id/">"E-Learning"</a> link
+    </p>
+</div>
+        <h4>Keterangan:</h4>
+        <ol>
+            <li>Warna border adalah <b>yellowgreen</b></li>
+            <li>Gunakan tranformasi teks <b>uppercase</b> pada heading</li>
+            <li>Paragraf utama menggunaka <b>indentasi</b> dan rata kanan kiri</li>
+            <li>Gunakan <b>letter-spacing</b> pada paragraf utama</li>
+            <li>Warna teks hyperlink adalah <b>#008CBA</b></li>
+            <li>Pada saat link di klik maka akan membuka halaman <b>https://elearning.pnc.ac.id/</b> pada Tab baru</li>
+        </ol>
+</body>
+</html>
+```
+
+```text-decoration: none;``` digunakan untuk menghapus dekorasi pada pada style ```a```.
+
+```text-indent: 15%;```  pada style ```.a``` digunakan untuk membuat suatu kalimat atau paragraf menjorok
+
+```letter-spacing: 2px;``` pada style```.a``` digunakan untuk memberikan jarak pada suatu kalimat atau paragraf tertentu
+
+``` text-transform: uppercase;``` pada style ```h2``` digunakan untuk menjadikan semua huruf menjadi kapital
+
+```border: 5px solid yellowgreen;``` pada style ```div``` digunakan untuk membuat border dengan ketebalan ```5px``` dengan warna ```yellowgreen```
+
+
+
+
+
